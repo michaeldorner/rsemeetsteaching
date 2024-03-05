@@ -9,4 +9,6 @@
 
 ## License
 
-© 2024. This work is openly licensed via [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+© 2024. This work (poster) is openly licensed via [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Source code is licensed under  [MIT](./LICENSE).
