@@ -30,7 +30,7 @@ We integrated the research software as practical group projects. Each group cons
 
 As a result of the integration, we observed three main benefits for our research software at hand. 
 
-Our research software grew a comprehensive test suite. The test suite containes now unit and integration tests to catch regression bugs. Two projects went even beyond classical testing and developed fuzzing tests to catch memory-corruption and safety bugs. The test suite now enables to ensure that software artifacts meet their requirements. <!---andi das geht bestimmt besser oder?-->
+Our research software grew a comprehensive test suite. The test suite now enables to ensure that software artifacts meet their requirements. The test suite containes now unit and integration tests to catch regression bugs. Two projects went even beyond classical testing and developed fuzzing tests to catch memory-corruption and safety bugs.  <!---andi das geht bestimmt besser oder?-->
 
 To ease the barriers for students at the project start, we improved the documentation in size and quality. The improved documentation is beneficial not only for students, but also for other researchers reproducing or replicating our simulation. <!---andi schreibt was über warum docu gut ist--->
 
