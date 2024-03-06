@@ -28,8 +28,22 @@ We integrated the research software as practical group projects. Each group cons
 
 ## The Good
 
+As a result of the integration, we observed three main benefits for our research software at hand. 
+
+Our research software grew a comprehensive test suite. The test suite containes now unit and integration tests to catch regression bugs. Two projects went even beyond classical testing and developed fuzzing tests to catch memory-corruption and safety bugs. The test suite now enables to ensure that software artifacts meet their requirements. <!---andi das geht bestimmt besser oder?-->
+
+To ease the barriers for students at the project start, we improved the documentation in size and quality. The improved documentation is beneficial not only for students, but also for other researchers reproducing or replicating our simulation. <!---andi schreibt was über warum docu gut ist--->
+
+We did not provide a unified hardware setup but relied on the students' computers. To cover the large diveristies in hardware, operating systems, and software environments, we removed all OS and hardware requirements and minimized code dependencies. <!---andi schreibt was über warum weniger dependencies besser ist-->
+
 ## The Bad
+
+However, there is no such thing as a free lunch. We had substantial efforts—upfront and continous—for improving documentation context and minimizing dependencies and requirements. 
 
 ## The Ugly
 
+The biggest drawback we found was the uncertainty about intellectual property of student contributions. That hindered us to integrate the code from students in our software.
+
 # Conclusion
+
+
