@@ -10,7 +10,7 @@ In this experience report, we reflect on our approach to integrating research so
 
 ## Teaching
 
-The course introduces hands-on testing and quality assurance techniques for software systems for students from the SE and AI B.Sc. programmes. 
+The course introduces hands-on testing and quality assurance techniques for software systems for students from the SE and AI B.Sc. programmes at Blekinge Institute of Technology, Sweden. 
 
 The instance of the course we experiment with took place in Spring 2023. 40 students enrolled the course as part of their curriculum. 
 
