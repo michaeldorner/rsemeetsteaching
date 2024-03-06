@@ -25,31 +25,32 @@
           </tr>
         </tbody>
       </table>
-          <h2>Introduction</h2>
-          <hr/>
-          <p>Software underpins almost all research and is, in one way or another, at the core of scientific discovery today. We rely on high-quality and reliable software for high-quality and reliable results. Therefore, the engineering of such research software cannot be an afterthought. Research Software Engineering (RSE) bridges this gap between the complex demands of scientific research and the need for reliable, and maintainable software solutions for researchers. Addressing these needs puts us into two roles, researchers and software engineers. As researchers, most often we are also teachers. Consequently, the question naturally arises: How can we tap the minds of our brightest students for research software engineering? In this experience report, we reflect on our experiment to integrate research software engineering as part of the regular curriculum for software engineering students at <a href="https://www.bth.se/">Blekinge Institute of Technology, Sweden.</a></p>
-          <h2>Experimental Design</h2>
-          <hr/>
-          <h3>Teaching</h3>
-          <p>The course introduces hands-on testing and quality assurance techniques for software systems for students from the <a href="https://www.bth.se/utbildning/program-och-kurser/pagpt/">SE B.Sc. program</a> and <a href="https://www.bth.se/utbildning/program-och-kurser/dvaam/">AI M.Sc. program</a> at Blekinge Institute of Technology, Sweden. The instance of the course, the experiment was conducted in took place in Spring 2023. 40 students enrolled in the course as part of their curriculum.</p>
-          <h3>Research and Research Software</h3>
-          <p>As the subject (research software) of the experiment, we selected a <a href="https://arxiv.org/abs/2306.08980">real-world simulation for information diffusion in code reviews at Microsoft, Spotify, and Trivago</a> modelled as networks. As we implemented <a href="https://github.com/michaeldorner/information-diffusion-boundaries-in-code-review">Dijkstra’s algorithm for time-varying hypergraphs in Python</a> and the code review systems are partially huge (e.g., Microsoft's code review consists of over 30.000 developers), the simulation is computational expensive: On conventional hardware, it takes several days to simulate all information spreads and process the results. Initially, the code was accompanied by a minimal testing suite covering the basic needs.</p>
-          <h3>Integration</h3>
-          <p>We integrated the research software as practical group projects with 4 to 5 students. Each project group had to implement a minimum test suite to be executed in a CI pipeline and choose a project focus such as performance testing or algorithmic verification.</p>
-          <h2>Evaluation and Reflection</h2>
-          <hr/>
-          <h3>The Good</h3>
-          <p>As a result of the integration, we observed three main benefits for our research software at hand.</p>
-          <p>Our research software grew a comprehensive test suite. This is reflected in, first, the test suite now ensuring satisfaction of typical requirements by the software artifacts. Second, added coverage of regression issues through unit and integration tests. And third, two project groups extended the suite beyond classical testing to catch memory-corruption and safety bugs through fuzzy tests.</p>
-          <p>To ease the barriers for students at the project start, we improved the documentation in size and quality. The improved documentation is beneficial not only for students to effectively interact and extend the research software, but also for other researchers reproducing or replicating our simulation, ultimately fostering scientific growth through traceability, transparency, and usability.</p>
-          <p>We did not provide a unified hardware setup but relied on the students' computers. To cover the large diversity in hardware, operating systems, and software environments, we removed all OS and hardware requirements and minimized code dependencies. Being agnostic about hardware and operating systems contributes to easier use, maintenance, and extension of our research software facilitating adoption among the research community.</p>
-          <h3>The Bad</h3>
-          <p>However, there is no such thing as a free lunch. We put - upfront and continuously to this day - substantial efforts to improve the documentation and minimize dependencies and requirements.</p>
-          <h3>The Ugly</h3>
-          <p>The biggest drawback we found was the uncertainty about the intellectual property of contributions made by students as part of their studies. Our current and limited understanding is that at least some jurisdictions like Germany and Sweden prohibit to enforce usage rights (like a specific open source license) for intellectual property of students developed in the context of their studies, in our case, code. This uncertainty rendered effective integration of students' code in our research software impossible.</p>
-          <h2>Conclusion</h2>
-          <hr/>
-          <p>Integrating research software engineering into teaching at BTH substantially improved our research software, but it required noteworthy effort. The most prominent obstacle remains the uncertainty about the intellectual property of code contributions from students to the project.</p>
+      <hr/>
+      <h2>Introduction</h2>
+      <p>Software underpins almost all research and is, in one way or another, at the core of scientific discovery today. We rely on high-quality and reliable software for high-quality and reliable results. Therefore, the engineering of such research software cannot be an afterthought. Research Software Engineering (RSE) bridges this gap between the complex demands of scientific research and the need for reliable, and maintainable software solutions for researchers. Addressing these needs puts us into two roles, researchers and software engineers. As researchers, most often we are also teachers. Consequently, the question naturally arises: How can we tap the minds of our brightest students for research software engineering? In this experience report, we reflect on our experiment to integrate research software engineering as part of the regular curriculum for software engineering students at <a href="https://www.bth.se/">Blekinge Institute of Technology, Sweden.</a></p>
+      <hr/>   
+      <h2>Experimental Design</h2>
+      <h3>Teaching</h3>
+      <p>The course introduces hands-on testing and quality assurance techniques for software systems for students from the <a href="https://www.bth.se/utbildning/program-och-kurser/pagpt/">SE B.Sc. program</a> and <a href="https://www.bth.se/utbildning/program-och-kurser/dvaam/">AI M.Sc. program</a> at Blekinge Institute of Technology, Sweden. The instance of the course, the experiment was conducted in took place in Spring 2023. 40 students enrolled in the course as part of their curriculum.</p>
+      <h3>Research and Research Software</h3>
+      <p>As the subject (research software) of the experiment, we selected a <a href="https://arxiv.org/abs/2306.08980">real-world simulation for information diffusion in code reviews at Microsoft, Spotify, and Trivago</a> modelled as networks. As we implemented <a href="https://github.com/michaeldorner/information-diffusion-boundaries-in-code-review">Dijkstra’s algorithm for time-varying hypergraphs in Python</a> and the code review systems are partially huge (e.g., Microsoft's code review consists of over 30.000 developers), the simulation is computational expensive: On conventional hardware, it takes several days to simulate all information spreads and process the results. Initially, the code was accompanied by a minimal testing suite covering the basic needs.</p>
+      <h3>Integration</h3>
+      <p>We integrated the research software as practical group projects with 4 to 5 students. Each project group had to implement a minimum test suite to be executed in a CI pipeline and choose a project focus such as performance testing or algorithmic verification.</p>
+      <hr/>
+      <h2>Evaluation and Reflection</h2>
+      <h3>The Good</h3>
+      <p>As a result of the integration, we observed three main benefits for our research software at hand.</p>
+      <p>Our research software grew a comprehensive test suite. This is reflected in, first, the test suite now ensuring satisfaction of typical requirements by the software artifacts. Second, added coverage of regression issues through unit and integration tests. And third, two project groups extended the suite beyond classical testing to catch memory-corruption and safety bugs through fuzzy tests.</p>
+      <p>To ease the barriers for students at the project start, we improved the documentation in size and quality. The improved documentation is beneficial not only for students to effectively interact and extend the research software, but also for other researchers reproducing or replicating our simulation, ultimately fostering scientific growth through traceability, transparency, and usability.</p>
+      <p>We did not provide a unified hardware setup but relied on the students' computers. To cover the large diversity in hardware, operating systems, and software environments, we removed all OS and hardware requirements and minimized code dependencies. Being agnostic about hardware and operating systems contributes to easier use, maintenance, and extension of our research software facilitating adoption among the research community.</p>
+      <h3>The Bad</h3>
+      <p>However, there is no such thing as a free lunch. We put - upfront and continuously to this day - substantial efforts to improve the documentation and minimize dependencies and requirements.</p>
+      <h3>The Ugly</h3>
+      <p>The biggest drawback we found was the uncertainty about the intellectual property of contributions made by students as part of their studies. Our current and limited understanding is that at least some jurisdictions like Germany and Sweden prohibit to enforce usage rights (like a specific open source license) for intellectual property of students developed in the context of their studies, in our case, code. This uncertainty rendered effective integration of students' code in our research software impossible.</p>
+      <hr/>
+      <h2>Conclusion</h2>
+      <hr/>
+      <p>Integrating research software engineering into teaching at BTH substantially improved our research software, but it required noteworthy effort. The most prominent obstacle remains the uncertainty about the intellectual property of code contributions from students to the project.</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
